@@ -1,0 +1,20 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+    font-family: Inter;
+}
+
+::-webkit-scrollbar {
+    width: .5rem;
+    background-color: #262626;
+}
+::-webkit-scrollbar-thumb {
+    border-radius: 1rem;
+    background-color: #525252;
+}
+
+.aspect-2x3 {
+    aspect-ratio: 2 / 3;
+}
